@@ -18,7 +18,7 @@
 
 
 #canvas{
-  width: 40%;
+  height: 500px;
   aspect-ratio: 1/1;
   display: grid;
   border: 1px solid black;
@@ -76,4 +76,6 @@
 
 h2{
   font-size: 35px;
+  padding: 15px;
 }
+
