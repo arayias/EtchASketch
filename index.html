@@ -9,15 +9,18 @@
 </head>
 <body>
   <div class="main-container">
-    <h2>Etch a Sketch</h2>
+    <h2 style="margin-bottom: 15px;">Etch a Sketch</h2>
 
     <div id="canvas" class="grid-container"></div>
 
     <div class="controls">
       <button id="clear">Clear</button>
-      <button id="resize">Resize</button>
+      <button id="grid-outline">Grid Outline</button>
+      <div class="grid-resize">
+        <label for="grid-size">Grid Size <span class="js-grid-size"></span></label> 
+        <input type="range" id="grid-size" name="grid-size" min="1" max="64" value="16"/>
+      </div>
       <button id="random">Rainbow</button>
-      <button id="eraser">Eraser</button>
     </div>
 
   </div>
